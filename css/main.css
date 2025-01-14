@@ -15,7 +15,7 @@ header {
 }
 
 body{
-    background: url('https://github.com/LennyRocha/MiRepo.io/blob/main/IMG/back.png');
+    background: url('https://raw.githubusercontent.com/LennyRocha/MiRepo.io/refs/heads/main/IMG/back.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
