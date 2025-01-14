@@ -1,0 +1,259 @@
+:root{
+    --cir-color-1: #0b1633;
+    --cir-color-2: #21e6c1;
+    --cir-color-3: #ff4b8b;
+    --cir-color-4: #ffdd57;
+    --cir-color-5: #ff3e3e;
+    --cir-color-6: #101b2c;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--cir-color-1);
+    z-index: 10; /* Eleva el header por encima de otros elementos */
+}
+
+body{
+    background: url('../img/back.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.photo{
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px gray;
+    animation: slide 10s linear infinite;
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+    justify-self: center;
+}
+
+#mainHead{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.linky{
+    color: var(--cir-color-2);
+}
+
+footer{
+    background-color: var(--cir-color-6);
+    bottom: 0;
+}
+
+@media screen and (min-width : 739px) {
+    #mainHead > div{
+        max-width: 90%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width : 769) {
+    #table_container{
+        margin-inline: auto;
+    }
+
+    #form{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+#mainHead > img {
+    flex-grow: 1;
+    max-width: 300px;
+    max-height: 300px;
+    margin-inline: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#mainHead > p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#mainHead > div{
+    background-attachment: fixed;
+    color: white;
+}
+
+#ui {
+    gap:5px
+}
+
+@media screen and (max-width : 738px) {
+    #mainHead{
+        gap:0
+    }
+
+    #mainHead > img {
+        justify-self: center;
+    }
+
+    #mainHead > h1 {
+        justify-content: center;
+    }
+
+    #mainHead > div{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    #pics{
+        object-fit: cover;
+    }
+
+    .raw{
+        flex-direction: column;
+    }
+}
+
+#mainHead > img :hover{
+    scale: transition(1.2);
+}
+
+#mainHead > h1 {
+    flex-grow: 2;
+}
+
+#ops{
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    border: 3px solid var(--cir-color-3);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    font-family: inherit;
+}
+
+#ops::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--cir-color-3);
+    transition: all 0.3s;
+    z-index: -1;
+    transform: translateX(-100%);
+
+}
+
+#ops:hover::before{
+    transform: translateX(0);
+}
+
+#cerrar_modal{
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    border: 3px solid var(--cir-color-2);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    font-family: inherit;
+}
+
+#cerrar_modal::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--cir-color-2);
+    transition: all 0.3s;
+    z-index: -1;
+    transform: translateX(-100%);
+
+}
+
+#cerrar_modal:hover::before{
+    transform: translateX(0);
+}
+
+#form{
+    width: 75%;
+    height: 500px;
+    border-radius: 20px;
+    /*background: url('../img/background.jpeg');*/
+    color: white;
+    justify-self: center;
+    backdrop-filter: blur(30px);
+}
+
+form > h1{
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: white
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+}
+
+.asterisco{
+    color: crimson;
+}
+
+.raw{
+    display: flex;
+    gap:5px
+}
+
+#carr{
+    width: 50%;
+    place-self: center;
+}
+
+#imagen{
+    width: 90%;
+}
+
+.icon{
+    color: var(--cir-color-2);
+}
+
+@keyframes slide {
+    0%{background-image: url("../img/kotlin.png");}
+    25%{background-image: url("../img/java.jpeg");}
+    50%{background-image: url("https://th.bing.com/th/id/OIP.urLHYMYPFxkcs6AC4Io9vwHaHa?rs=1&pid=ImgDetMain");}
+    75%{background-image: url("https://th.bing.com/th/id/OIP.ZZaV8f0-sI1l6dcdApuE6gHaEK?w=312&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");}
+    100%{background-image: url("https://th.bing.com/th/id/OIP.c9BbPNmGFrhbXYTdOTG6FAHaFj?rs=1&pid=ImgDetMain");}
+}

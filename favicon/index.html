@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portafolio de Leo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Leonardo Obed Sanchez Rocha">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <!--<script src='main.js'></script>-->
+</head>
+
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" id="head">
+        <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-warning text-decoration-none">
+            <img src="img/logo_sf.png" alt="logo_pagina">
+            <span class="fs-4">Mi portafolio</span>
+        </a>
+        <ul class="nav nav-pills">
+            <li class="nav-pills"><a href="#inicio_title" class="nav-link linky" aria-current="page">Inicio</a></li>
+            <li class="nav-pills"><a href="#projects_title" class="nav-link linky" aria-current="page">Sobre mi</a></li>
+            <li class="nav-pills"><a href="#gallery_title" class="nav-link linky" aria-current="page">Proyectos</a></li>
+            <li class="nav-pills"><a href="#contact_title" class="nav-link linky" aria-current="page">Contacto</a></li>
+        </ul>
+    </header>
+    <div id="mainHead">
+        <img class="img-fluid"
+            src="https://th.bing.com/th/id/OIP.blBjZW6nHVwtLXKFiJDqYgAAAA?w=418&h=418&rs=1&pid=ImgDetMain"
+            alt="mi perfil">
+        <div class="col-md-6 col-lg-8">
+            <h1 id="inicio_title">Bienvenido a mi portafolio web</h1>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."</p>
+            <label class="h5">Mis Hobbies e intereses</label>
+            <ul class="nav nav-pills" id="ui">
+                <li class="nav-pills"><a href="#mainHead" class="badge bg-dark">Guitarra</a></li>
+                <li class="nav-pills"><a href="#projects_title" class="badge bg-dark">Videojuegos</a></li>
+                <li class="nav-pills"><a href="#gallery_title" class="badge bg-dark">Volley Ball</a></li>
+                <li class="nav-pills"><a href="#contact_title" class="badge bg-dark">Dibujo</a></li>
+                <li class="nav-pills"><a href="#contact_title" class="badge bg-dark">Programación</a></li>
+                <li class="nav-pills"><a href="#contact_title" class="badge bg-dark">Mi mascota</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <h1 id="projects_title" class="">Proyectos</h1>
+    <div class="overflow-auto" id="table_container">
+        <table class="table table-striped table-hover table-bordered mx-auto">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre del proyecto</th>
+                    <th scope="col">Descripción del proyecto</th>
+                    <th scope="col">Tecnología utilizada</th>
+                    <th scope="col">Demo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Menú de restaurante KFC</td>
+                    <td>Diseño de interfaz de orden y facturación de restaurante de comida rápida.</td>
+                    <td>JavaFX</td>
+                    <td><a href="https://github.com/LennyRocha/MiRepo.io/tree/main/Integradora">Demo</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Sistema de gestión de almacen "ALMACENNOVA"</td>
+                    <td>Aplicación web para gestión de un almacén de productos consumibles.</td>
+                    <td>Jakarta EE, MySQL</td>
+                    <td><a
+                            href="https://github.com/CiscoPaquitoTracer/Los-Cisco-Paquitos-Tracer/tree/main/RepositorioCiscos/Integradora">Demo</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Proyecto Pokedex</td>
+                    <td>Pagina web, creada como proyecto escolar para consumo de la PokeAPI.</td>
+                    <td>HTML,CSS,JS</td>
+                    <td><a href="./Pokedex/index.html">Demo</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Servicio APIDonald´s</td>
+                    <td>Servicio web diseñado para ordenar comida rápida.</td>
+                    <td>NodeJS, MySQL</td>
+                    <td><a href="https://github.com/LennyRocha/API_Donald-s">Demo</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Patrulla Ambiental</td>
+                    <td>Aplicación móvil diseñada para control de incidencias ambientales en la Universidad Tecnológica
+                        Emiliano Zapata UTEZ.</td>
+                    <td>Java/Kotlin</td>
+                    <td><a href="https://github.com/LennyRocha/DisenoApps">Demo</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Cooperativa escolar "La Cope"</td>
+                    <td>Aplicación móvil diseña para registro y control de ventas de productos de la cooperativa escolar
+                        de una escuela secundaria.</td>
+                    <td>Java/Kotlin</td>
+                    <td><a href="#">Demo</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <h1 id="gallery_title" class="">Galeria</h1>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner" id="carr">
+            <div class="carousel-item active">
+                <img src="img/img1.jpeg" class="d-block w-100 img-fluid" alt="KFC">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img2.jpeg" class="d-block w-100 img-fluid" alt="almacen">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img3.jpg" class="d-block w-100 img-fluid" alt="pokedex">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img4.jpeg" class="d-block w-100 img-fluid" alt="mcDonald´s">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img5.jpeg" class="d-block w-100 img-fluid" alt="patrulla ambiental">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img6.jpeg" class="d-block w-100 img-fluid" alt="cooperativa">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <!--<div class="photo"></div>-->
+    <br>
+    <div id="form">
+        <form class="form" action="">
+            <h1 id="contact_title" class="h1">Contacto</h1>
+            <div class="raw">
+                <div class="col">
+                    <label for="correo">Email<b class="asterisco">*</b></label>
+                    <input type="text" name="coreeo" id="correo" class="form-control" inputmode="email" required>
+                </div>
+                <div class="col">
+                    <label for="nombre">Nombre<b class="asterisco">*</b></label>
+                    <input type="email" name="nombre" id="nombre" class="form-control" required>
+                </div>
+            </div>
+            <label for="comment">Mensaje<b class="asterisco">*</b></label>
+            <textarea type="text" name="comment" id="comment" rows="5" class="form-control" required></textarea>
+            <label for="comment" class="badge"><b class="asterisco">*</b>Campos obligatorios</label>
+            <button value="Enviar" id="ops">Enviar</button>
+        </form>
+    </div>
+    <br>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-4">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="text-success">2025 Leonardo Sanchez Rocha</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#github" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="https://github.com/LennyRocha/MiRepo.io"><svg
+                                class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </footer>
+        </div>
+    </footer>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>Bootstrap</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+            </path>
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 16 16">
+            <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 16 16">
+            <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+        </symbol>
+        <symbol id="github" viewBox="0 0 16 16" fill="#ffdd57">
+            <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </symbol>
+    </svg>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
